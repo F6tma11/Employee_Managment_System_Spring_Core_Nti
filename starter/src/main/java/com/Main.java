@@ -23,8 +23,7 @@ public class Main {
         context.getEnvironment()
                 .setActiveProfiles("dev");
 
-        // لو عايزة File Repository:
-        // context.getEnvironment().setActiveProfiles("prod");
+
 
         context.register(AppConfiguration.class);
 
